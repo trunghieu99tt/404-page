@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap");
+.page-container {
+  max-width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.page-header {
+  margin-bottom: 200px;
+}
+
+@media (max-width: 75em) {
+  .page-header {
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .page-header {
+    margin-bottom: 0;
+  }
+}
+
+.page-header__title {
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+}
+
+.page-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 75em) {
+  .page-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.page-main-text {
+  width: 30%;
+  margin-left: 100px;
+}
+
+@media (max-width: 75em) {
+  .page-main-text {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .page-main-text {
+    text-align: left;
+  }
+}
+
+.page-main__image-container {
+  width: 40%;
+  margin: 0;
+}
+
+@media (max-width: 75em) {
+  .page-main__image-container {
+    width: 100%;
+  }
+}
+
+.page-main__image {
+  width: 100%;
+}
+
+@media (max-width: 75em) {
+  .page-main__image {
+    height: 400px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .page-main__image {
+    height: 150px;
+  }
+}
+
+.page-main__mainText {
+  font-family: "Space Mono";
+  font-weight: bold;
+  font-size: 64px;
+  letter-spacing: -0.035em;
+  color: #333333;
+  margin-bottom: 36px;
+  margin-top: 0;
+}
+
+@media (max-width: 37.5em) {
+  .page-main__mainText {
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+}
+
+.page-main__description {
+  font-family: "Space Mono";
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+  margin-bottom: 64px;
+}
+
+@media (max-width: 37.5em) {
+  .page-main__description {
+    font-size: 18px;
+  }
+}
+
+.page-main__button {
+  padding: 24px 43px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #333333;
+  cursor: pointer;
+  border: none;
+}
+
+.page-footer {
+  text-align: center;
+}
